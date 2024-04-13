@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4687d4cd-7b02-4809-9c2f-c2d90be680e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <workItem from="1711377159173" duration="5000" />
       <workItem from="1711377186550" duration="6000" />
       <workItem from="1711457059826" duration="3000" />
-      <workItem from="1713008128494" duration="2001000" />
+      <workItem from="1713008128494" duration="4996000" />
     </task>
     <servers />
   </component>
