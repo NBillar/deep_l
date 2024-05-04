@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from collections import Counter
 
-path = 'C:/Users/woute/OneDrive/Documenten/JADS/Deep Learning/Group assignment/data/pizzaGANdata/images'
+path = 'data/pizza_data/images'
 # set an initial value which no image will meet
 minw = 10000000
 minh = 10000000
