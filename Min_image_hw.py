@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from collections import Counter
 
-path = 'data/pizza_data/images'
+path = os.path.dirname(__file__)+'/data/pizza_data/images'
 # set an initial value which no image will meet
 minw = 10000000
 minh = 10000000
@@ -16,6 +16,7 @@ maxw = 0
 maxh = 0
 w_list = []
 h_list = []
+
 
 for image in tqdm(os.listdir(path)):
     # get the image height & width
@@ -59,11 +60,11 @@ cbar.ax.set_ylabel('Counts')
 
 plt.show()
 
-with open('data/pizzaGANdata/imageLabels.txt') as f:
+with open(os.path.dirname(__file__)+'/data/pizza_data/imageLabels.txt') as f:
     labels = f.readlines()
 
 
-with open('data/pizzaGANdata/categories.txt') as f:
+with open(os.path.dirname(__file__)+'/data/pizza_data/categories.txt') as f:
     categories = [item.strip() for item in f.readlines()]
 
 split_labels = [[int(label) for label in line.strip().split('  ')] for line in labels]
